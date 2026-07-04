@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.mugsun</groupId>
+		<artifactId>mugsun-core</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>mugsun-starter-web</artifactId>
+	<name>mugsun-starter-web</name>
+	<description>Web 基座：全局异常处理 + 鉴权拦截</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.mugsun</groupId>
+			<artifactId>mugsun-core-tool</artifactId>
+			<version>${mugsun.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>cn.dev33</groupId>
+			<artifactId>sa-token-spring-boot3-starter</artifactId>
+			<version>${sa-token.version}</version>
+		</dependency>
+	</dependencies>
+</project>
