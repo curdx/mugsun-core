@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.mugsun</groupId>
+		<artifactId>mugsun-core</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>mugsun-bom</artifactId>
+	<packaging>pom</packaging>
+	<name>mugsun-bom</name>
+	<description>Mugsun 依赖版本统一管理</description>
+
+	<dependencyManagement>
+		<dependencies>
+			<!-- Mugsun 自身模块 -->
+			<dependency>
+				<groupId>com.mugsun</groupId>
+				<artifactId>mugsun-core-tool</artifactId>
+				<version>${mugsun.version}</version>
+			</dependency>
+			<!-- 持久层：MyBatis-Flex（须覆盖其传递的旧版 mybatis-spring） -->
+			<dependency>
+				<groupId>com.mybatis-flex</groupId>
+				<artifactId>mybatis-flex-spring-boot-starter</artifactId>
+				<version>${mybatis-flex.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.mybatis</groupId>
+				<artifactId>mybatis-spring</artifactId>
+				<version>${mybatis-spring.version}</version>
+			</dependency>
+			<!-- 认证鉴权：Sa-Token -->
+			<dependency>
+				<groupId>cn.dev33</groupId>
+				<artifactId>sa-token-spring-boot3-starter</artifactId>
+				<version>${sa-token.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+</project>
