@@ -39,6 +39,12 @@
 				<artifactId>mybatis-flex-spring-boot-starter</artifactId>
 				<version>${mybatis-flex.version}</version>
 			</dependency>
+			<!-- 显式锁定 mybatis 版本，避免工作流 starter 传递的旧版覆盖（NoSuchMethodError） -->
+			<dependency>
+				<groupId>org.mybatis</groupId>
+				<artifactId>mybatis</artifactId>
+				<version>${mybatis.version}</version>
+			</dependency>
 			<dependency>
 				<groupId>org.mybatis</groupId>
 				<artifactId>mybatis-spring</artifactId>
@@ -67,6 +73,17 @@
 				<groupId>org.dromara.sms4j</groupId>
 				<artifactId>sms4j-spring-boot-starter</artifactId>
 				<version>${sms4j.version}</version>
+			</dependency>
+			<!-- 工作流：Warm-Flow（MyBatis 适配 + 表达式模式） -->
+			<dependency>
+				<groupId>org.dromara.warm</groupId>
+				<artifactId>warm-flow-mybatis-sb3-starter</artifactId>
+				<version>${warm-flow.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.dromara.warm</groupId>
+				<artifactId>warm-flow-plugin-modes-sb</artifactId>
+				<version>${warm-flow.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

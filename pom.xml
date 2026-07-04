@@ -23,10 +23,12 @@
 		<mugsun.version>0.0.1-SNAPSHOT</mugsun.version>
 		<mybatis-flex.version>1.11.8</mybatis-flex.version>
 		<mybatis-spring.version>3.0.5</mybatis-spring.version>
+		<mybatis.version>3.5.19</mybatis.version>
 		<sa-token.version>1.44.0</sa-token.version>
 		<jetcache.version>2.7.9</jetcache.version>
 		<x-file-storage.version>2.3.0</x-file-storage.version>
 		<sms4j.version>3.3.4</sms4j.version>
+		<warm-flow.version>1.8.8</warm-flow.version>
 	</properties>
 
 	<modules>
