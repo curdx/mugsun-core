@@ -22,7 +22,7 @@ public class GlobalExceptionHandler {
 	/** 业务异常 */
 	@ExceptionHandler(ServiceException.class)
 	public R<Void> handleService(ServiceException e) {
-		return R.fail(e.getResultCode());
+		return R.fail(e.getResultCode(), e.getMessage());
 	}
 
 	/** 参数校验异常 */

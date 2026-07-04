@@ -40,6 +40,10 @@ public class R<T> implements Serializable {
 		return new R<>(resultCode.getCode(), false, null, resultCode.getMsg());
 	}
 
+	public static <T> R<T> fail(ResultCode resultCode, String msg) {
+		return new R<>(resultCode.getCode(), false, null, msg);
+	}
+
 	public int getCode() {
 		return code;
 	}
