@@ -85,6 +85,17 @@
 				<artifactId>warm-flow-plugin-modes-sb</artifactId>
 				<version>${warm-flow.version}</version>
 			</dependency>
+			<!-- 任务调度：PowerJob Worker + OpenAPI 客户端 -->
+			<dependency>
+				<groupId>tech.powerjob</groupId>
+				<artifactId>powerjob-worker-spring-boot-starter</artifactId>
+				<version>${powerjob.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>tech.powerjob</groupId>
+				<artifactId>powerjob-client</artifactId>
+				<version>${powerjob.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 </project>

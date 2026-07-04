@@ -29,6 +29,7 @@
 		<x-file-storage.version>2.3.0</x-file-storage.version>
 		<sms4j.version>3.3.4</sms4j.version>
 		<warm-flow.version>1.8.8</warm-flow.version>
+		<powerjob.version>5.1.2</powerjob.version>
 	</properties>
 
 	<modules>
