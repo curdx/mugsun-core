@@ -30,5 +30,6 @@
 		<module>mugsun-bom</module>
 		<module>mugsun-core-tool</module>
 		<module>mugsun-starter-web</module>
+		<module>mugsun-starter-mybatis</module>
 	</modules>
 </project>

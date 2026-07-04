@@ -28,6 +28,11 @@
 				<artifactId>mugsun-starter-web</artifactId>
 				<version>${mugsun.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>com.mugsun</groupId>
+				<artifactId>mugsun-starter-mybatis</artifactId>
+				<version>${mugsun.version}</version>
+			</dependency>
 			<!-- 持久层：MyBatis-Flex（须覆盖其传递的旧版 mybatis-spring） -->
 			<dependency>
 				<groupId>com.mybatis-flex</groupId>
