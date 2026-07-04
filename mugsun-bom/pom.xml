@@ -50,6 +50,12 @@
 				<artifactId>sa-token-spring-boot3-starter</artifactId>
 				<version>${sa-token.version}</version>
 			</dependency>
+			<!-- 缓存：JetCache（本地内存，remote 多级能力后续按需启用） -->
+			<dependency>
+				<groupId>com.alicp.jetcache</groupId>
+				<artifactId>jetcache-autoconfigure</artifactId>
+				<version>${jetcache.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 </project>

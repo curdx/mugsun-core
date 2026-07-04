@@ -24,6 +24,7 @@
 		<mybatis-flex.version>1.11.8</mybatis-flex.version>
 		<mybatis-spring.version>3.0.5</mybatis-spring.version>
 		<sa-token.version>1.44.0</sa-token.version>
+		<jetcache.version>2.7.9</jetcache.version>
 	</properties>
 
 	<modules>
