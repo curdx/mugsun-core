@@ -39,6 +39,12 @@
 				<artifactId>mybatis-flex-spring-boot-starter</artifactId>
 				<version>${mybatis-flex.version}</version>
 			</dependency>
+			<!-- 代码生成器 -->
+			<dependency>
+				<groupId>com.mybatis-flex</groupId>
+				<artifactId>mybatis-flex-codegen</artifactId>
+				<version>${mybatis-flex.version}</version>
+			</dependency>
 			<!-- 显式锁定 mybatis 版本，避免工作流 starter 传递的旧版覆盖（NoSuchMethodError） -->
 			<dependency>
 				<groupId>org.mybatis</groupId>
