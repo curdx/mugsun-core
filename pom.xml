@@ -30,6 +30,7 @@
 		<sms4j.version>3.3.4</sms4j.version>
 		<warm-flow.version>1.8.8</warm-flow.version>
 		<powerjob.version>5.1.2</powerjob.version>
+		<liteflow.version>2.16.0</liteflow.version>
 	</properties>
 
 	<modules>

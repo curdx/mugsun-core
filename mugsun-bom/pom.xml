@@ -102,6 +102,12 @@
 				<artifactId>powerjob-client</artifactId>
 				<version>${powerjob.version}</version>
 			</dependency>
+			<!-- 规则编排：LiteFlow -->
+			<dependency>
+				<groupId>com.yomahub</groupId>
+				<artifactId>liteflow-spring-boot-starter</artifactId>
+				<version>${liteflow.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 </project>
