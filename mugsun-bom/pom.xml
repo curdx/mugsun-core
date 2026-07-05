@@ -108,6 +108,12 @@
 				<artifactId>liteflow-spring-boot-starter</artifactId>
 				<version>${liteflow.version}</version>
 			</dependency>
+			<!-- Excel：FastExcel（EasyExcel 维护分支，导入导出） -->
+			<dependency>
+				<groupId>cn.idev.excel</groupId>
+				<artifactId>fastexcel</artifactId>
+				<version>${fastexcel.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 </project>

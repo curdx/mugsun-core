@@ -29,5 +29,10 @@
 			<artifactId>sa-token-spring-boot3-starter</artifactId>
 			<version>${sa-token.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>cn.idev.excel</groupId>
+			<artifactId>fastexcel</artifactId>
+			<version>${fastexcel.version}</version>
+		</dependency>
 	</dependencies>
 </project>
